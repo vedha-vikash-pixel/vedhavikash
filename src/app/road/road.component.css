@@ -1,0 +1,26 @@
+.road{
+    height:40%;
+  background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
+
+}
+.roadheader{
+    text-align: center;
+}
+.stepper{
+    height:100%;
+}
+.mat-stepper{
+    height: 100%;
+    background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected{
+    background-color: green; 
+ }
+::ng-deep .mat-step-text-label{
+    color: black;
+}
+
+::ng-deep .mat-stepper-horizontal-line{
+    background-color: rgb(29, 86, 96);
+}

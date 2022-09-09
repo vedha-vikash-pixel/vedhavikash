@@ -1,0 +1,22 @@
+<div class="skills">
+    <h1 class="skillheader">SKILLS</h1>
+
+    <div class="flexouter">
+    <div class="flex-container">
+
+      <div *ngFor="let skill of skills" class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            {{skill.skill}}
+          </div>
+          <div class="flip-card-back">
+            {{skill.stack}}           
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+</div>
+
+        

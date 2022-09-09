@@ -1,0 +1,44 @@
+.aboutme{
+    height:100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "pic hi";  
+}
+
+.hi {
+    grid-area: hi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hello{
+    height:80%;
+    width:80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .hello > *{
+    margin : 5%;
+  
+  }
+  
+  .pic {
+    grid-area: pic;
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+    font-size:30px;
+  }
+  
+  p{
+    font-size:15px;
+  }

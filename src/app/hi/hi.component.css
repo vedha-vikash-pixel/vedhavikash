@@ -1,0 +1,53 @@
+
+
+.hicontainer{
+  height:100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "hi pic";
+  background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
+
+}
+
+.hi {
+  grid-area: hi;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello{
+  height:60%;
+  width:80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hello > *{
+  margin : 5%;
+
+}
+
+.pic {
+  grid-area: pic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic > img{
+  border-radius: 50%;
+}
+
+h1{
+  font-size:30px;
+}
+
+p{
+  font-size:15px;
+}

@@ -1,0 +1,51 @@
+.contact{
+    height:25%;
+  background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
+
+}
+.contactheader{
+    text-align: center;    
+}
+.sociallinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    transition:  box-shadow .6s ease-out;
+    box-shadow: .8px .9px 3px grey;
+    cursor: pointer;
+  }
+  
+  .fa:hover {      
+      box-shadow: 1px 8px 20px grey;
+    transition:  box-shadow .2s ease-in;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white; 
+  }
+.fa-instagram {
+    background: linear-gradient(45DEG,#405DE6,#5851DB,#833AB4,#c13584,#e13063,#fd1d1d);
+    color: rgb(255, 255, 255); 
+  }
+.fa-linkedin {
+    background: #0a61b9;
+    color: white; 
+  }
+.fa-github {
+    background: #202020;
+    color: #f2f2f2; 
+  }
+  .fa-envelope {
+    background: #ffffff;
+    color: #1796d7; 
+  }  
