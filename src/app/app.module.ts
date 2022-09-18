@@ -16,6 +16,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { RoadComponent } from './road/road.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import { MatIconModule } from '@angular/material/icon';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { MatIconModule } from '@angular/material/icon';
     MatProgressBarModule,
     MatButtonModule,
     MatStepperModule,
-    MatIconModule
+    MatIconModule,
+    ClipboardModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

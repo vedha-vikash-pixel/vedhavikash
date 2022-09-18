@@ -94,8 +94,10 @@
     text-align: center;
     line-height: 60px;
     font-size: 20px; 
-    transform: rotateY(180deg);
+    transform: rotateY(180deg);    
     background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
   }
-
+img{
+  margin-top: 3%;
+}
   

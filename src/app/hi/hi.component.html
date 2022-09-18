@@ -1,6 +1,6 @@
 <div class="hicontainer">
     <div class="hi">
-        <div class="hello">
+        <div @fadein class="hello">
             <h1>HI</h1>
             <h2>lorem epsum youtubr asd</h2>
             <p>asdad asdad dasd ad njah ih hiodsa kiasjd ioaioasd
@@ -8,7 +8,8 @@
                 asdad adad asdaj aodjasodj asdj
                 adahduh
             </p>
-            <button mat-raised-button>Basic</button>
+
+            <button mat-raised-button (click)="downloadMyFile()">Download</button>
         </div>
     </div>
     <div class="pic">
