@@ -8,8 +8,8 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "hi pic";
-  background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
-
+  /* background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%); */
+  background-color: rgb(255, 254, 216);
 }
 
 .hi {
