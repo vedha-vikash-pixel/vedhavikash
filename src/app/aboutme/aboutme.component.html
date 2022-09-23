@@ -1,17 +1,18 @@
-<div class="aboutme">    
-    <div class="pic">
-        <img class="aboutmeimg" src="./assets/images/time.gif" height="600" width="600">
+<div class="aboutme">
+    <div style="display:{{visiblity}};" class="pic animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectionpic($event)">
+        <img class="aboutmeimg" src="./assets/images/time.gif" height="580" width="600">
     </div>
-        <div class="hi">
-            <div class="hello">
-                <h1>HI</h1>
-                <h2>lorem epsum youtubr asd</h2>
-                <p>asdad asdad dasd ad njah ih hiodsa kiasjd ioaioasd
-                    asdasda                asdasdaasdadsa asd  asdasdasdadsasd   sdadadd asdasd dasdasd asdasdada assdasdadasdasdasdadadasdasdfadasda
-                    asdad adad asdaj aodjasodj asdj
-                    adahduh
-                </p>
-                <button mat-raised-button>Basic</button>
-            </div>
-        </div>        
+    <div class="hi  animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectiontext($event)">
+        <div class="hello">
+            <h1>HI</h1>
+            <h2>lorem epsum youtubr asd</h2>
+            <p>asdad asdad dasd ad njah ih hiodsa kiasjd ioaioasd
+                asdasda asdasdaasdadsa asd asdasdasdadsasd sdadadd asdasd dasdasd asdasdada
+                assdasdadasdasdasdadadasdasdfadasda
+                asdad adad asdaj aodjasodj asdj
+                adahduh
+            </p>
+            <button mat-raised-button>Basic</button>
+        </div>
+    </div>
 </div>

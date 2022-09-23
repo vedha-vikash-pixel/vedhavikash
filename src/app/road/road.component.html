@@ -1,5 +1,5 @@
 <div class="road">
-
+  <div class="animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectionroad($event)">
   <div class="roadheader">
     <h1>Carrer Path</h1>
   </div>
@@ -29,6 +29,6 @@
 
     </mat-stepper>
   </div>
-
+</div>
 
 </div>

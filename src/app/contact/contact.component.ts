@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Renderer2} from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
@@ -9,7 +9,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private clipboard:Clipboard,private _snack:MatSnackBar) { }
+  constructor(private clipboard:Clipboard,private _snack:MatSnackBar,private renderer:Renderer2) { }
 
   ngOnInit(): void {
   }
@@ -23,4 +23,11 @@ export class ContactComponent implements OnInit {
       panelClass: 'green-snackbar'
     });
   }
+
+  public onIntersectioncontactimg({ target, visible }: { target: Element; visible: boolean }): void {
+    this.renderer.addClass(target, visible ? 'animate__bounceInLeft' : '');    
+}
+public onIntersectioncontact({ target, visible }: { target: Element; visible: boolean }): void {
+  this.renderer.addClass(target, visible ? 'animate__bounceInRight' : '');    
+}
 }

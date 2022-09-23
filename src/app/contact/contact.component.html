@@ -1,13 +1,18 @@
 <div class="contact">
-<div class="contactheader">
-    <h1>CONTACT / FOLLOW ME</h1>
-</div>
-<div class="sociallinks">
-    <a href="#"><i class="fa fa-twitter fa-4x"></i></a>    
-    <a href="mailto: vikashvedha@gmail.com" (click)="copymail()" class="fa fa-envelope"></a>
-    <a href="https://www.linkedin.com/in/vedha-vikash/" class="fa fa-linkedin"></a>
-    <a href="https://github.com/vedha-vikash-pixel" class="fa fa-github"></a>
-    <a href="https://stackoverflow.com/users/16398162/dr-die-oxide" class="fa fa-stack-overflow"></a>
-    <a href="https://www.instagram.com/vedhavikash/" class="fa fa-instagram"></a>        
-</div>
+    <div class="contactheader">
+        <h1>CONTACT / FOLLOW ME</h1>
+    </div>
+    <div class="contacts">
+        <div class="contactimg animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontactimg($event)">
+            <img src="./assets/images/contactme.gif" width="350" height="300">
+        </div>
+        <div class="sociallinks">
+            <a href="mailto: vikashvedha@gmail.com" (click)="copymail()" class="fa fa-envelope animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></a>
+            <a href="https://www.linkedin.com/in/vedha-vikash/" class="fa fa-linkedin animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></a>
+            <a href="#"><i class="fa fa-twitter animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></i></a>
+            <a href="https://github.com/vedha-vikash-pixel" class="fa fa-github animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></a>
+            <a href="https://stackoverflow.com/users/16398162/dr-die-oxide" class="fa fa-stack-overflow animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></a>
+            <a href="https://www.instagram.com/vedhavikash/" class="fa fa-instagram animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectioncontact($event)"></a>
+        </div>
+    </div>
 </div>

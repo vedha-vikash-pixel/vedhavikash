@@ -18,6 +18,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { MatIconModule } from '@angular/material/icon';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { InViewportModule } from 'ng-in-viewport';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatStepperModule,
     MatIconModule,
     ClipboardModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    InViewportModule
   ],
   providers: [],
   bootstrap: [AppComponent]

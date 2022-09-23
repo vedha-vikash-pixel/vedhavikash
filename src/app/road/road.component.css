@@ -1,26 +1,27 @@
-.road{
-    height:40%;
-  background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
-
+.road {
+  height: 40%;
+  margin-left:2%;
+  margin-right:2%;
+  background-color: #d2dce7;
 }
-.roadheader{
-    text-align: center;
+.roadheader {
+  text-align: center;
 }
-.stepper{
-    height:100%;
+.stepper {
+  height: 100%;
 }
-.mat-stepper{
-    height: 100%;
-    background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%);
-}
-
-::ng-deep .mat-step-header .mat-step-icon-selected{
-    background-color: green; 
- }
-::ng-deep .mat-step-text-label{
-    color: black;
+.mat-stepper {
+  height: 100%;
+  background-color: #d2dce7;
 }
 
-::ng-deep .mat-stepper-horizontal-line{
-    background-color: rgb(29, 86, 96);
+::ng-deep .mat-step-header .mat-step-icon-selected {
+  background-color: green;
+}
+::ng-deep .mat-step-text-label {
+  color: black;
+}
+
+::ng-deep .mat-stepper-horizontal-line {
+  background-color: rgb(29, 86, 96);
 }

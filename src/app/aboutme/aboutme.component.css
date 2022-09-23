@@ -13,6 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-delay: 1s;
+    animation-duration: 3s;
   }
   
   .hello{
