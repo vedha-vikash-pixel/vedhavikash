@@ -18,7 +18,8 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { MatIconModule } from '@angular/material/icon';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-import { InViewportModule } from 'ng-in-viewport';
+import { ErrorComponent } from './error/error.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { InViewportModule } from 'ng-in-viewport';
     ProjectsComponent,
     ContactComponent,
     AboutmeComponent,
-    RoadComponent
+    RoadComponent,
+    ErrorComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -41,8 +44,7 @@ import { InViewportModule } from 'ng-in-viewport';
     MatStepperModule,
     MatIconModule,
     ClipboardModule,
-    MatSnackBarModule,
-    InViewportModule
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

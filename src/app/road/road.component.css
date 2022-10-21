@@ -1,14 +1,16 @@
 .road {
-  height: 40%;
-  margin-left:2%;
-  margin-right:2%;
+  height: 92%; 
   background-color: #d2dce7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
 }
-.roadheader {
-  text-align: center;
+.imgdiv{
+  text-align: center;      
 }
+
 .stepper {
-  height: 100%;
+  height: 50%;
 }
 .mat-stepper {
   height: 100%;

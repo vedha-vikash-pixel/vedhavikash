@@ -1,34 +1,35 @@
 <div class="road">
-  <div class="animate__animated animate__slower" inViewport [inViewportOptions]="{ threshold: [0] }" (inViewportAction)="onIntersectionroad($event)">
-  <div class="roadheader">
-    <h1>Carrer Path</h1>
+  <div class="imgdiv">
+    <img src="./assets/images/path.gif" alt="Path" height="300" width="600" />
   </div>
-  <div class="stepper">
-    <mat-stepper class="mat-stepper">
-      <mat-step label="School">
-        <p>Put down your phones.</p>
-        <div>
-          <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
-        </div>
-      </mat-step>
-      <mat-step label="College">
-        <p>Socialize with each other.</p>
-        <div>
-          <button mat-raised-button color="warn" matStepperPrevious>Roll years backward</button>    
-          <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
-        </div>
-      </mat-step>
-      <mat-step label="EY">
-        <p>You're welcome.</p>
-        <div>
-          <button mat-raised-button color="warn" matStepperPrevious>Roll years backward</button>    
+  <div class="animate__animated animate__fadeIn animate__slower">
+    <div class="stepper">
+      <mat-stepper class="mat-stepper">
+        <mat-step label="School">
+          <p>Put down your phones.</p>
+          <div>
+            <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
+          </div>
+        </mat-step>
+        <mat-step label="College">
+          <p>Socialize with each other.</p>
+          <div>
+            <button mat-raised-button color="warn" matStepperPrevious>Roll years backward</button>
+            <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
+          </div>
+        </mat-step>
+        <mat-step label="EY">
+          <p>You're welcome.</p>
+          <div>
+            <button mat-raised-button color="warn" matStepperPrevious>Roll years backward</button>
 
-        </div>
-      </mat-step>
+          </div>
+        </mat-step>
 
 
-    </mat-stepper>
+      </mat-stepper>
+    </div>
   </div>
-</div>
+
 
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit ,Renderer2} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 
 @Component({
@@ -9,18 +9,9 @@ import { Component, OnInit ,Renderer2} from '@angular/core';
 export class AboutmeComponent implements OnInit {  
 
   public visiblity:string = 'none';
-  constructor(private renderer: Renderer2) { }
+  constructor() { }
 
   ngOnInit(): void {    
   }
 
-  public onIntersectionpic({ target, visible }: { target: Element; visible: boolean }): void {    
-    this.visiblity = ''; 
-    console.log(this.visiblity);
-    this.renderer.addClass(target, visible ? 'animate__bounceInLeft' : '');
-          
-}
-public onIntersectiontext({ target, visible }: { target: Element; visible: boolean }): void {
-  this.renderer.addClass(target, visible ? 'animate__fadeIn' : '');      
-}
 }
