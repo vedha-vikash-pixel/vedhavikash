@@ -10,7 +10,10 @@
 
 .skills{
     height:90%;
-    background: white
+    background: white;
+    /* background-image: url("../../assets/images/pot.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   */
 }
 .skillimg{  
   width:35vw;

@@ -18,8 +18,8 @@ export class ContactComponent implements OnInit {
     this.clipboard.copy('vikashvedha@gmail.com');
     this._snack.open('MAIL COPIED TO CLIPBOARD (OPENING MAIL CLIENT IN YOUR DEVICE)', 'X', {
       duration: 4000,
-      verticalPosition: 'bottom',
-      horizontalPosition: 'center',
+      verticalPosition: 'top',
+      horizontalPosition: 'right',
       panelClass: 'green-snackbar'
     });
   }

@@ -8,6 +8,9 @@
   grid-template-areas: "hi pic";
   /* background: linear-gradient(135deg, #FFF5E5 0%, #FFDBA4 60%); */
   background-color: #d2dce7;
+  background-image: url("../../assets/images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .hi {

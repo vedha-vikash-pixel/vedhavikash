@@ -4,9 +4,6 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .green-snackbar{
-    background: rgb(165, 236, 132);
-    color:rgb(0, 0, 0)
+    background: rgb(59, 59, 59);
+    color:rgb(255, 255, 255)
 }
-.hide{
-    display: none;
-  }
