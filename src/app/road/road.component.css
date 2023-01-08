@@ -1,6 +1,6 @@
 .road {
   height: 92%; 
-  background-color: #d2dce7;
+  /* background-color: #d2dce7; */
   display: flex;
   flex-direction: column;
   justify-content: center;  
@@ -14,7 +14,8 @@
 }
 .mat-stepper {
   height: 100%;
-  background-color: #d2dce7;
+  background-color: #ffffff;
+
 }
 
 ::ng-deep .mat-step-header .mat-step-icon-selected {

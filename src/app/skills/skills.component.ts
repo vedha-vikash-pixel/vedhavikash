@@ -11,19 +11,20 @@ export class SkillsComponent implements OnInit {
 
   skills  = [{ skill: 'HTML', stack: 'frontend', path: './assets/images/html.png', delay:''},
   { skill: 'CSS', stack: 'FrontEnd', path: './assets/images/css.png', delay:''},
-  { skill: 'Bootstrap', stack: 'FrontEnd', path: './assets/images/bootstrap.png', delay:''},
   { skill: 'Javascript', stack: 'FrontEnd', path: './assets/images/js.png', delay:''},
   { skill: 'Angular', stack: 'FrontEnd', path: './assets/images/angular.png', delay:''},
   { skill: 'Jquery', stack: 'FrontEnd', path: './assets/images/jquery.png', delay:''},
   { skill: 'TypeScript', stack: 'FrontEnd', path: './assets/images/typescript.png', delay:''},
   { skill: 'Java', stack: 'BackEnd', path: './assets/images/java.png', delay:''},
-  { skill: 'Spring Boot', stack: 'BackEnd', path: './assets/images/spring-boot.png', delay:''},
-  { skill: 'NodeJS', stack: 'BackEnd', path: './assets/images/nodejs.png', delay:''},
+  { skill: 'Spring Boot', stack: 'BackEnd', path: './assets/images/spring-boot.png', delay:''},  
   { skill: 'Python', stack: 'BackEnd', path: './assets/images/python.png', delay:''},
   { skill: 'SQL', stack: 'Database', path: './assets/images/sqlserver.png', delay:''},
-  { skill: 'NOSQL', stack: 'Database', path: './assets/images/mongodb.png', delay:''},
+  { skill: 'Redis', stack: 'Cache', path: './assets/images/redis.png', delay:''},
+  { skill: 'NOSQL', stack: 'Database', path: './assets/images/mongodb.png', delay:''},  
+  { skill: 'Kafka', stack: 'Deployment', path: './assets/images/kafka.png', delay:''},
   { skill: 'Docker', stack: 'Deployment', path: './assets/images/docker.png', delay:''},
-  { skill: 'Kubernetes', stack: 'Deployment', path: './assets/images/kubernetes.png', delay:''}];
+  { skill: 'Jenkins', stack: 'CICD', path: './assets/images/jenkins.png', delay:''}
+  ];
 
 
   constructor() { }
