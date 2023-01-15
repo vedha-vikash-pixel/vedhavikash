@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   downloadMyFile() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', './assets/files/r.pdf');
+    link.setAttribute('href', './assets/files/VedhaVikash.pdf');
     link.setAttribute('download', `Vedha_Vikash_Resume.pdf`);
     document.body.appendChild(link);
     link.click();
