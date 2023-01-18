@@ -28,3 +28,7 @@
 ::ng-deep .mat-stepper-horizontal-line {
   background-color: rgb(29, 86, 96);
 }
+
+.prevButton{
+  margin-right: 2%;
+}
