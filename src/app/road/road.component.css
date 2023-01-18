@@ -10,7 +10,7 @@
 }
 
 .stepper {
-  height: 50%;
+  height: 20%;
 }
 .mat-stepper {
   height: 100%;
@@ -31,4 +31,12 @@
 
 .prevButton{
   margin-right: 2%;
+}
+
+.stepDesc{
+  margin-top: 1%;
+}
+
+p{
+  font-family: "Playfair Display", serif;  
 }

@@ -1,34 +1,48 @@
 <div class="road">
-  <div class="imgdiv">
-    <img src="./assets/images/path.gif" alt="Path" height="300" width="600" />
-  </div>
   <div class="animate__animated animate__fadeIn animate__slower">
     <div class="stepper">
       <mat-stepper class="mat-stepper">
         <mat-step label="School">
-          <p>Innocent  |  Memorable  |   Valuable  |  Freedom to fail </p>
           <div>
             <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
+          </div>
+          <div class="stepDesc">
+            <p> My school years were an innocent, memorable and valuable journey, where I had the freedom to fail and learn from my mistakes. </p>
+          </div>
+          <div class="imgdiv">
+            <img src="./assets/images/school.gif" alt="Path" height="350" width="350" />
           </div>
         </mat-step>
         <mat-step label="College">
-          <p>Transformative  |  Exposure  |  Connections |  Tech Interest </p>
-          <div>
-            <button mat-raised-button class="prevButton"color="warn" matStepperPrevious>Roll years backward</button>
-            <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
-          </div>
-        </mat-step>
-        <mat-step label="EY">
-          <p>Skills  |  Experience  |   Growth  |  Big 4 </p>
+
           <div>
             <button mat-raised-button class="prevButton" color="warn" matStepperPrevious>Roll years backward</button>
+            <button mat-raised-button color="accent" matStepperNext>Roll years Forward</button>
+          </div>
+          <div class="stepDesc">
+            <p>College was a transformative experience that provided me with valuable exposure, connections and the opportunity to explore my tech interests.</p>
+          </div>          
+          <div class="imgdiv">
 
+            <img src="./assets/images/college.gif" alt="Path" height="350" width="600" />
+          </div>        
+        </mat-step>
+        <mat-step label="EY">
+          <div>
+            <button mat-raised-button class="prevButton" color="warn" matStepperPrevious>Roll years backward</button>
+          </div>
+          <div class="stepDesc">
+            <p>My company is a place where I can utilize my skills, gain experience, and grow as a professional, with the added benefit of being part of one of the Big 4. </p>
+          </div>
+          <div class="imgdiv">
+            <img src="./assets/images/workingProfessional.gif" alt="Path" height="350" width="600" />
           </div>
         </mat-step>
 
 
       </mat-stepper>
     </div>
+
   </div>
 
 

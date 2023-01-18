@@ -22,17 +22,19 @@
 
 .hello {
   height: 80%;
-  width: 80%;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;  
 }
 
-.hello > * {
+.hello > p {
   margin: 5%;
+  font-size: 19px;
+  line-height: 30px;
 }
 
 .pic {
@@ -48,7 +50,3 @@
     font-family: 'Oswald', sans-serif;
   } */
 
-p {
-  font-size: 15px;
-  line-height: 20px;  
-}
