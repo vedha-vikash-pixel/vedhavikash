@@ -7,5 +7,5 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'portf';
-  disabled: boolean = true;
+  disabled: boolean = false;
 }
