@@ -28,11 +28,11 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif; 
 }
 
 .hello > *{
-  margin : 5%;
+  margin : 3%;
 }
 
 .pic {
@@ -50,9 +50,10 @@ h1{
   font-family: 'Oswald', sans-serif;
 }
 h2{
+  font-size:30px;
   font-family: 'Oswald', sans-serif;
 }
 
 p{
-  font-size:15px;
+  font-size:20px;
 }
