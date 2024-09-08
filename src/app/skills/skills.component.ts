@@ -18,11 +18,11 @@ export class SkillsComponent implements OnInit {
   { skill: 'Java', stack: 'BackEnd', path: './assets/images/java.png', delay:''},
   { skill: 'Spring Boot', stack: 'BackEnd', path: './assets/images/spring-boot.png', delay:''},  
   { skill: 'Python', stack: 'BackEnd', path: './assets/images/python.png', delay:''},
-  { skill: 'SQL', stack: 'Database', path: './assets/images/sqlserver.png', delay:''},
-  { skill: 'Redis', stack: 'Cache', path: './assets/images/redis.png', delay:''},
-  { skill: 'NOSQL', stack: 'Database', path: './assets/images/mongodb.png', delay:''},  
-  { skill: 'Kafka', stack: 'Deployment', path: './assets/images/kafka.png', delay:''},
+  { skill: 'SQL', stack: 'Database', path: './assets/images/postgresql.png', delay:''},
+  { skill: 'Git', stack: 'Cache', path: './assets/images/git.png', delay:''},
+  { skill: 'NOSQL', stack: 'Database', path: './assets/images/mongodb.png', delay:''},    
   { skill: 'Docker', stack: 'Deployment', path: './assets/images/docker.png', delay:''},
+  { skill: 'Kubernetes', stack: 'Deployment', path: './assets/images/kubernetes.png', delay:''},
   { skill: 'Jenkins', stack: 'CICD', path: './assets/images/jenkins.png', delay:''}
   ];
 
